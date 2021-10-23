@@ -66,6 +66,7 @@
                         $_SESSION['add'] = "Failed to Add Admin";
                         //redirect Admin to Manage Admin
                         header("location: /manage-admin.php");
+                        
                     }
                 }
             ?>
