@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+/*---Form Start---*/
+.signup-form{
+    margin-top: 20px;
+}
+
+h1 {
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+form, .content {
+    width: 30%;
+    margin-left: 36%;
+    padding: 20px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .input-group {
+    margin: auto;
+    padding: 15px 10px;
+    text-align: left;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  .center {
+    text-align: center;
+  }
+  /*---Form End---*/
+
+/*admin*/
+h2 {
+    margin-left: 20%;
+}
+
+.tbl-full{
+margin-left: 20%;
+width: 70%;
+}
+
+table tr th{
+border-bottom: 1px solid black;
+padding: 1%;
+text-align: center;
+}
+
+table tr td{
+padding: 1%;
+text-align: center;
+}
+
+
+
+.btn-add{
+background-color:rgba(0, 0, 255, 0.445) ;
+margin-left: 20%;
+padding: 1%;
+color:white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.btn-add:hover{
+background-color: rgb(24, 58, 168);
+}
+
+.btn-update{
+background-color:green ;
+padding: 1%;
+color:black;
+text-decoration: none;
+font-weight: bold;
+}
+
+.btn-update:hover{
+background-color: lime;
+}
+
+.btn-delete{
+background-color:red ;
+padding: 1%;
+color:black;
+text-decoration:none;
+font-weight: bold;
+}
+
+.btn-delete:hover{
+background-color: tomato;
+}
+
+.error
+{
+  color:red;
+}

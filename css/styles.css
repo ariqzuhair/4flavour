@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+/*---Navigation Bar Start---*/
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #184c57;
+}
+
+.nav_users {
+    list-style: none;
+}
+
+.nav_users li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_users li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_users li a:hover {
+    color: #184c57;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(24,76,87,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #0d333b;
+}
+/*---Navigation Bar End---*/
+
+ .question {
+   text-align: center;
+   margin-top: 2%;
+ }
+
+ a {
+     color: #05C1C8;
+
+ }
+
+/*---Form Start---*/
+
+.bg-image {
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .input-group {
+    margin: auto;
+    padding: 15px 10px;
+    text-align: center;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  .center {
+    text-align: center;
+    margin-top: 2%;
+  }
+  /*---Form End---*/
+
+  .error{
+    color: red;
+  }
+  .success{
+    color:green;
+  }
