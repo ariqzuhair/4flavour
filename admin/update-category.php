@@ -77,10 +77,10 @@
 					    <input type="file" name="image">
 				    </div>
 		    	</div>
-			    
+
           <div class="featured-details">
-              <input <?php if($featured=="Yes"){echo "checked";} ?> type="radio" name="featured" id="dot-1">
-              <input <?php if($featured=="No"){echo "checked";} ?> type="radio" name="featured" id="dot-2">
+              <input <?php if($featured=="Yes"){echo "checked";} ?> type="radio" name="featured" value="Yes" id="dot-1">
+              <input <?php if($featured=="No"){echo "checked";} ?> type="radio" name="featured" value="no" id="dot-2">
 
               <span class="featured-title">Featured</span>
               <div class="category">
@@ -97,8 +97,8 @@
           </div>
 
           <div class="featured-details">
-              <input <?php if($active=="Yes"){echo "checked";} ?> type="radio" name="active" id="dot-3">
-              <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" id="dot-4">
+              <input <?php if($active=="Yes"){echo "checked";} ?> type="radio" name="active" value="Yes" id="dot-3">
+              <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" value="no" id="dot-4">
               <span class="featured-title">Active</span>
               <div class="category">
                 <label for="dot-3">

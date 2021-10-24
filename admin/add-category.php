@@ -33,10 +33,10 @@
 					    <input type="file" name="image">
 				    </div>
 		    	</div>
-			    
+
           <div class="featured-details">
-              <input type="radio" name="featured" id="dot-1">
-              <input type="radio" name="featured" id="dot-2">
+              <input type="radio" name="featured" value="Yes" id="dot-1">
+              <input type="radio" name="featured" value="No" id="dot-2">
               <span class="featured-title">Featured</span>
               <div class="category">
                 <label for="dot-1">
@@ -52,8 +52,8 @@
           </div>
 
           <div class="featured-details">
-              <input type="radio" name="active" id="dot-3">
-              <input type="radio" name="active" id="dot-4">
+              <input type="radio" name="active" value="Yes" id="dot-3">
+              <input type="radio" name="active" value="No" id="dot-4">
               <span class="featured-title">Active</span>
               <div class="category">
                 <label for="dot-3">
